@@ -24,7 +24,7 @@ matplotlib;<br>
 |:---|:---|:---|:---|:---|
 |test 2017 en-de|0.5935|0.1173|0.1537|0.6246|
 |state of the art(Single)|0.6837|0.1001|0.1441|0.7091|
-|test 2017 de-en|列2的内容1|列1的内容1|列2的内容1|列2的内容1|
+|test 2017 de-en|0.6457|0.1150|0.1548|0.6252|
 |state of the art(Single)|0.7099|0.0927|0.1394|0.6424|
 
 注：state of the art 参考论文：[“Bilingual Expert” Can Find Translation Errors](https://arxiv.org/pdf/1807.09433.pdf) ;<br>
