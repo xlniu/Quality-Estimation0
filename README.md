@@ -1,5 +1,5 @@
-# Quality-Estimation
-机器翻译子任务-翻译质量评价<br>
+# Quality-Estimation0
+机器翻译子任务-翻译质量评价-使用 BERT 特征训练 QE 模型<br>
 
 ## 简介
 翻译质量评价（Quality Estimation,QE）是机器翻译领域中的一个子任务，大致可分为 Sentence-level QE，Word-level QE，Phrase-level QE，详情可参考WMT(workshop machine translation)比赛官网 http://www.statmt.org/wmt17/quality-estimation-task.html 。本项目针对 Sentence-level QE，使用 bert生成翻译句对中单词的 context embedding，然后将其输入到Bi-LSTM中，使用最后一个隐层节点的输出计算翻译质量评分。由于 wmt18-qe 的测试集标签没有公布，本项目仅在 wmt17-qe 数据集上进行实验。
