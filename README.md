@@ -30,4 +30,4 @@ matplotlib;<br>
 注：state of the art 参考论文：[“Bilingual Expert” Can Find Translation Errors](https://arxiv.org/pdf/1807.09433.pdf) ;<br>
 
 ## 后记
-还可以在bert模型后面加上Bi-LSTM进行fine-tuning,这样做的结果应该会更好，由于受tensorflow版本的限制，不能用gpu跑fine-tuning，就没有做这个实验。有兴趣的可以自己尝试一下。
+还可以在bert模型后面加上Bi-LSTM进行fine-tuning,这样做的结果应该会更好，具体实现见 https://github.com/xlniu/Quality-Estimation2 。
